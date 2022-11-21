@@ -1,14 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navclass{
+    border:solid 15px;
+    border-color: rgb(219, 213, 213);
+}
+
+.navclass {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-  }
-  
-  .navclass a {
+}
+
+.navclass a {
     float: right;
     color: #000000;
     text-align: center;
@@ -18,67 +26,95 @@ body {
     margin-right: 30px;
     margin-top: 40px;
     border-radius: 8px;
-  }
-  
-  .navclass a:hover {
+}
+
+.navclass a:hover {
     background-color: rgb(106, 70, 192);
     color: black;
-  }
-  
-  .navclass a.active {
-    background-color:  rgb(106, 70, 192);
-    color: white;}
+    border-bottom: solid 10px;
+}
 
-    .nav-full{
-        display: flex;
-    }
-    .logo{
-        cursor:pointer;
-        margin-top: 40px;
-        margin-left: 30px;
-    }
-    button{
-       
-        border-radius: 30px;
-        background-color:rgb(106, 70, 192) ;
-        text-align: center;
-        border: none;
-      
-       
-    }
-    
-    button{
-        margin-top: 3px;
-    }
-   
-    .box{
-        padding-left: 50px;
-        padding-top: 80px;
-        position:fixed;
-       
-    }
+.navclass a.active {
+    background-color: rgb(98, 67, 160);
+    color: white;
+}
 
-    h1{
-        color:rgb(30, 17, 62);
-        margin-top:-60px;
-        padding-left: 50px;
-        
-    }
-    input{
-        height: 40px;
-        width:350px;
-    }
-    .search-but{
-        background-color: rgb(106, 70, 192);
-        color:white;
-        border-radius: 0px;
-        margin-top: 1px;
-        margin-left: 8px;
-    }
-    .search{
-        display:flex;
-    }
-    .finpar{
-        margin-left:30px;
-    }
-    
+.nav-full {
+    display: flex;
+}
+
+.logo {
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+button {
+
+    border-radius: 30px;
+    background-color: rgb(106, 70, 192);
+    text-align: center;
+    border: none;
+
+
+}
+
+button {
+    margin-top: 3px;
+}
+
+.box {
+    padding-left: 50px;
+    padding-top: 80px;
+    position: fixed;
+
+}
+
+h1 {
+    color: rgb(30, 17, 62);
+    margin-top: -60px;
+    padding-left: 50px;
+
+}
+
+input {
+    height: 40px;
+    width: 350px;
+}
+
+.search-but {
+    background-color: rgb(106, 70, 192);
+    color: white;
+    border-radius: 0px;
+    margin-top: 1px;
+    margin-left: 8px;
+}
+
+.search {
+    display: flex;
+}
+
+.finpar {
+    margin-left: 30px;
+}
+
+
+.build {
+    margin-top: 170px;
+}
+
+.full-box {
+    z-index: -2;
+}
+.imget{
+    z-index: 5;
+    float: right;
+    position: fixed;
+    top:160px;
+    right:20px;
+    left: 880px;
+
+}
+.exam{
+    margin-top: 30px;;
+}
